@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-size: 120rem 60rem;
+  background: linear-gradient(to bottom right, #3a6186, #89253e);
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 63rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  width: 30rem;
+  height: 40rem;
+  border-radius: 70px;
+  gap: 10px;
+  color: white;
+}
+
+.first-container {
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  background-color: inherit;
+  border: 1px solid white;
+  border-top: inherit;
+  border-left: inherit;
+  border-right: inherit;
+  color: white;
+  font-size: 18px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+img {
+  width: 8rem;
+  width: 8rem;
+  border-radius: 300px;
+  border: 1px solid white;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+.bottom-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  margin-top: 3rem;
+  width: 10rem;
+  height: 3rem;
+  background-color: #fbfbfb85;
+  border-radius: 30px;
+  border: inherit;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+}

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, #00F260, #0575e6);
+ }
+
+body,
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63rem;
+}
+.fields-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 40px;
+  width: 30rem;
+  height: 35rem;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.fields-container,input,button{
+    color: white;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  font-size: 20px;
+  border: 1px solid white;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background-color: inherit;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgba(253, 253, 253, 0.452);
+}
+.error{
+  font-size: 15px;
+  color: red;
+}

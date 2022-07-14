@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="add_shifts.js" defer></script>
+    <link rel="stylesheet" href="add_shifts.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="links-container">
+        <a class="logo-container" href="./home.html">
+          <img src="./img/logo.png" class="logo-img" />
+        </a>
+      </div>
+
+      <div class="first-container">
+        <div class="fields-container">
+          <label>Date</label>
+          <input type="date" id="date" required />
+          <label>Start time</label>
+          <input type="time" id="startTime" required />
+          <label>End time</label>
+          <input type="time" id="endTime" required />
+          <label>Horuly Wage</label>
+          <input type="number" id="hourlyWage" required minlength="0" />
+          <label>Workplace </label>
+          <select name="WorkPlace" id="workPlace" >
+            <option value="">Select the city</option>
+            <option value="Galati">Galati</option>
+            <option value="Bucharest">Bucharest</option>
+            <option value="Brasov">Brasov</option>
+            <option value="Timisioara">Timisoara</option>
+          </select>
+          <label>Shift Name</label>
+          <input type="text" id="shiftName" required />
+          <label>Comments</label>
+          <textarea id="comments"></textarea>
+
+          <div class="buttons-container">
+            <button id="saveBtn">Save</button>
+            <button id="cancelBtn">Cancel</button>
+          </div>
+          <div id="errorDiv" class="erorr"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="social-media-container">
+      <img src="./img/twitter.png" class="social-media" />
+      <img src="./img/youtube.png" class="social-media" />
+      <img src="./img/facebook.png" class="social-media" />
+    </div>
+    <p>©All rights reserved</p>
+  </footer>
+</html>

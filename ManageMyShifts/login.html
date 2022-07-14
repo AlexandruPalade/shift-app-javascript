@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="login.js" defer></script>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <div class="img-container"><img src="./img/user-img.png" /></div>
+        <div class="first-container">
+          <div class="top-container" id="topContainer">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="👤    username" />
+            <label>Password</label>
+            <input type="password" id="password" placeholder="🔒    password" />
+          </div>
+          <div class="bottom-container">
+            <button id="loginBtn">LogIn</button>
+            <button id="registerBtn">Register</button>
+            <button id="resetBtn">Reset Password</button>
+          </div>
+          <div id="errorDiv" class="error"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
